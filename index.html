@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html kang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widthy, initial-scale=1.0">
+        <title>Result Summary Bootstrap Version</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="custom.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;700&family=Karla:wght@400;700&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Open+Sans&family=Outfit:wght@200;300;400;600;800&family=Overpass:wght@400;700&family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Container fluid -->
+        <div class="container-fluid bg-light">
+            <!-- Grid container -->
+            <div class="row m-0 mx-auto pt-3 px-5" style="width: 60vw;">
+                <div class="col-lg-6 w-50-lg-6 p-0 ps-3  z-2  position-relative">
+                    <!-- first card  -->
+                        <div class="card p-4 bg-primary bg-opacity-100 rounded-4" style="width: 18rem;border: none;">
+                        <div class="card-body p-0">
+                            <div class="card-head">
+                                <h6 class="text-center mb-3 text-secondary">Your Result</h6>
+                                </div>
+                                <div class="circle bg-secondary d-flex flex-column align-items-center my-4 mx-auto  pt-3">
+                                    <h1 class="mt-3 mb-0 text-light">76</h1>
+                                    <p class="text-secondary" style="margin-top: -1vh;">Of 100</p>
+                                </div>
+                                <div class="text-center my-4">
+                                    <h4 class="mb-3 text-light">Great</h4>
+                                    <p class="text-secondary">You scored higher than 65% of the people who have taken <br>these tests.</p>
+                                </div>
+                        </div>
+                        </div>
+                </div>
+                <div class="col-lg-6 w-50-lg-6 p-0 z-1 position-relative">
+                    <!-- second card -->
+                    <div class="card p-4 ps-5 rounded-4" style="width: 19rem;border: none;">
+                        <div class="card-body p-0">
+                            <div class="card-head m-0">
+                                <h3 class="text-info">Summary</h3>
+                            </div>
+                        </div>
+                            <div class="card-content">
+                                <div class="mb-2 p-2 rounded-2 bg-danger d-flex flex-row justify-content-between">
+                                    <div>
+                                        <img src="./Images/icon-reaction.svg" alt="">
+                                        <span class="text-danger">Reaction</span>
+                                    </div>
+                                    <span>
+                                    <label for="" class="text-info">80 <span class="text-secondary">/</span> <span class="text-secondary">100</span></label></span>
+                                </div>
+                                <div class="mb-2 p-2 rounded-2 bg-warning d-flex flex-row justify-content-between">
+                                    <div>
+                                        <img src="./Images/icon-memory.svg" alt="">
+                                        <span for="memory" class="text-warning">Memory</span>
+                                    </div>
+                                    
+                                    <span>
+                                        <label for="" class="text-info">92 <span class="text-secondary">/</span> <span class="text-secondary">100</span></label>
+                                    </span>
+                                </div>
+                                <div class="mb-2 p-2 rounded-2 bg-success d-flex flex-row justify-content-between">
+                                    <div>
+                                        <img src="./Images/icon-verbal.svg" alt="">
+                                        <span for="verbal" class="text-success">Verbal</span>
+                                    </div>
+                                    <span>
+                                        <label for="" class="text-info">61 <span class="text-secondary">/</span> <span class="text-secondary">100</span></label>
+                                    </span>
+                                </div>
+                                <div class="mb-2 p-2 rounded-2 bg-dark d-flex flex-row justify-content-between">
+                                    <div>
+                                        <img src="./Images/icon-visual.svg" alt="">
+                                        <span class="text-dark">Visual</span>
+                                    </div>
+                                <span>
+                                        <label for="" class="text-info">72 <span class="text-secondary">/</span> <span class="text-secondary">100</span></label>
+                                    </span>
+                                </div>
+                                <button class="btn btn-dark w-100 rounded-5 mt-2">Continue</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
